@@ -1,0 +1,6 @@
+ private static void printHand(String playerName, List<Card> hand) {
+        System.out.println(playerName + "'s hand:");
+        for (Card card : hand) {
+            System.out.println(card);
+        }
+    }
